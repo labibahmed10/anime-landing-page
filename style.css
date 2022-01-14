@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Cookie&family=EB+Garamond:ital,wght@0,500;1,500&family=Lobster+Two:ital@1&family=Lora:ital@1&family=Poppins&family=Raleway:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Lora", serif;
+}
+
+/* header part design starts here */
+
+.container {
+  background: url(images/cloud.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.295);
+  background-blend-mode: overlay;
+}
+.navbar {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 65px; */
+}
+
+.link-part ul {
+  display: flex;
+  /* gap: 10px; */
+}
+
+.link-part ul li {
+  list-style: none;
+}
+
+.link-part ul li a {
+  text-decoration: none;
+  padding: 10px 10px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+/*Banner part design starts here  */
+
+.banner {
+  height: calc(100vh - 88px);
+  width: 90vw;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+}
+
+.banner-content {
+  flex: 1;
+}
+
+.banner-content h1 {
+  font-size: 3.5rem;
+  color: white;
+}
+.cos-world {
+  color: #ff0095;
+}
+.banner-content p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.banner-content button {
+  outline: 0;
+  border: 0;
+  padding: 10px 5px;
+  margin-top: 30px;
+  background: linear-gradient(#ff0095, #bb076d);
+  box-shadow: 0px 7px #db0582;
+  position: relative;
+  top: 0;
+}
+
+.banner-content button:active {
+  top: 5px;
+  box-shadow: 0px 2px #ff0095;
+}
+
+button a {
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+  color: white;
+}
+.banner-image {
+  flex: 1;
+}
+
+.banner-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/*Banner part design edns here  */
+
+/* feature-part  design starts here */
+.feature {
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+}
+.section-title h1 {
+  font-size: 2.6rem;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 25px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #ff0095;
+}
+.feature-heading {
+  color: #ff0095;
+}
+
+.feature-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* justify-items: center; */
+  place-items: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.info-card {
+  width: 300px;
+  /* height: 320px; */
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.295);
+}
+
+.info-card span {
+  background-color: #ff0095;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 15px;
+  display: inline-block;
+}
+
+.info-card h2 {
+  font-size: 2.2rem;
+  padding: 10px 0;
+  color: #ff0095;
+}
+.info-card p {
+  font-size: 1.2rem;
+  text-align: justify;
+  color: rgb(78, 78, 78);
+}
+
+.info-card button {
+  outline: 0;
+  border: 0;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+  background: linear-gradient(#ff0095, #bb076d);
+}
+
+/* feature-part  design ends here */
+
+/* gallery-part  design starts here */
+
+.gallery {
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  grid-gap: 20px 0;
+}
+
+.gallery-image {
+  width: 300px;
+  height: 200px;
+}
+
+.gallery-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 3px solid #ff0095;
+}
+
+/* gallery-part  design ends here */
+
+/* contact-part  design ends here */
+
+.contact {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contact-part {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image {
+  flex: 1;
+}
+
+.contact-image img {
+  width: 100%;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form h3 {
+  font-size: 2rem;
+  color: #ff0095;
+  padding: 15px 0;
+}
+
+.contact-form input {
+  outline: 0;
+  border: 2px solid #ff0095;
+}
+
+.input-field {
+  width: 28rem;
+  height: 3rem;
+  padding: 0 5px;
+  font-size: 1rem;
+}
+
+.massage-field {
+  outline: 0;
+  border: 2px solid #ff0095;
+  width: 28rem;
+  height: 15rem;
+  padding: 0 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  display: block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  padding: 15px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+  background: linear-gradient(#ff0095, #bb076d);
+}
+
+/* contact-part  design ends here */
+
+/* footer-part  design ends here */
+
+footer {
+  background-color: #ff0095;
+  padding: 15px;
+}
+
+footer p {
+  text-align: center;
+  color: aliceblue;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+}
+
+/* footer-part  design ends here */
